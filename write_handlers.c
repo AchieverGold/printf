@@ -103,7 +103,7 @@ buffer[ind] = padd = ' '; /* width is displayed with padding ' ' */
 if (prec > 0 && prec < length)
 padd = ' ';
 while (prec > length)
-buffer[--ind] = '0', length++
+buffer[--ind] = '0', length++;
 if (extra_c != 0)
 length++;
 if (width > length)
